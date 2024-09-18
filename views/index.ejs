@@ -1,22 +1,12 @@
-<!DOCTYPE html>
-<html lang="en">
+<%- include("partials/header.ejs") %>
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>JLong Blog</title>
-</head>
-
-<body>
-    <h1>
-      <!-- Tite goes here -->
-       <%= title %>
-    </h1>
-    <p>Current second:
-      <!-- Current second goes here -->
-       <%= seconds %>
-    </p>
+<h1>
+  <!-- Tite goes here -->
+  <%= title %>
+</h1>
+<p>Current second:
+  <!-- Current second goes here -->
+  <%= seconds %>
+</p>
   
-  </body>
-  
-  </html>
+<%- include("partials/footer.ejs") %>
