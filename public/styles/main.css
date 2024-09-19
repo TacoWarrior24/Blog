@@ -31,5 +31,8 @@ li a{
 }
 
 footer {
-    background-color: lightslategray;
+    background-color: lightblue;
+    text-align: center;
+    color: blue;
+    padding: 20px;
 }
