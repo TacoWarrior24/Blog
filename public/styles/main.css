@@ -40,7 +40,27 @@ a.active,a:hover{
     transition: .5s;
 }
 
+h1{
+    margin: 1em 0 0.5em .5em;
+	font-weight: 100;
+	text-transform: uppercase;
+	color: #00caa6;
+	font-style: italic;
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 58px;
+	line-height: 54px;
+	text-shadow: 2px 5px 0 rgba(0,0,0,0.2);
+}
 
+.posts {
+    background-color: paleturquoise;
+    margin: 0em 5em;
+    padding: 2em;
+}
+
+.post{
+    border-bottom: 3px solid rgb(118, 180, 201);
+}
 
 footer {
     background-color: lightblue;

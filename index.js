@@ -21,10 +21,6 @@ let posts = [
 
 // Home route to view all posts
 app.get("/", (req, res) => {
-  const data = {
-    title: "JLong Blog",
-    seconds: new Date().getSeconds(),
-  };
   res.render("index.ejs", {posts: posts});
 });
 
