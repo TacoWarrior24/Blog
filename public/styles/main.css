@@ -46,7 +46,7 @@ h1{
 	text-transform: uppercase;
 	color: #00caa6;
 	font-style: italic;
-	font-family: 'Josefin Sans', sans-serif;
+	font-family: 'calibri', sans-serif;
 	font-size: 58px;
 	line-height: 54px;
 	text-shadow: 2px 5px 0 rgba(0,0,0,0.2);
@@ -60,6 +60,14 @@ h1{
 
 .post{
     border-bottom: 3px solid rgb(118, 180, 201);
+}
+.post h2{
+    color: blue;
+    font-family: 'calibri';
+}
+
+.post p{
+    font-family: 'calibri';
 }
 
 footer {
