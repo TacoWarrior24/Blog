@@ -1,1 +1,1 @@
-This is a Blog Website created with the NodeJS, Express and EJS. This project was inspired by the AppBrewery Web Development Bootcamp.
+This is a Blog Website created with the NodeJS, Express and EJS. This project was inspired by the AppBrewery Web Development Bootcamp. On this website you can view posts, create new posts, delete posts and edit existing posts. This project was super fun to work on and I learned a lot of new things!
