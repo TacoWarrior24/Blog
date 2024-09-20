@@ -1,12 +1,23 @@
 <%- include("partials/header.ejs") %>
-
+<!--
 <h1>
-  <!-- Tite goes here -->
-  <%= title %>
+  
+  <%= //title %>
 </h1>
 <p>Current second:
-  <!-- Current second goes here -->
-  <%= seconds %>
-</p>
   
+  <%= //seconds %>
+</p>-->
+
+<h2>All Posts</h2>
+<a href="/post">Create New Post</a>
+    <div class="posts">
+        <% posts.forEach(post => { %>
+            <div class="post">
+                <h2><%= post.title %></h2>
+                <p><%= post.description %></p>
+            </div>
+        <% }) %>
+    </div>
+
 <%- include("partials/footer.ejs") %>
