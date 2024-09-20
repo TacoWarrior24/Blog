@@ -70,6 +70,15 @@ h1{
     font-family: 'calibri';
 }
 
+#deletePost{
+    margin-left: 95%;
+    margin-bottom: .5em;
+    background-color: red;
+    border: none;
+    padding: .5em;
+    border-radius:.5em;
+}
+
 footer {
     background-color: lightblue;
     text-align: center;

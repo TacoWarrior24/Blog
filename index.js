@@ -24,6 +24,13 @@ app.get("/", (req, res) => {
   res.render("index.ejs", {posts: posts});
 });
 
+// Route to delete a post by index
+app.post('/delete/:index', (req, res) => {
+  const index = req.params.index;
+  posts.splice(index, 1);  // Remove the post at the given index
+  res.redirect('/');
+});
+
 // Route to create a new post
 app.get("/post", (req, res) => {
   res.render("post.ejs");
