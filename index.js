@@ -11,7 +11,7 @@ app.set('view engine', 'ejs');
 app.use(bodyParser.urlencoded({ extended: true }));
 
 // Serve static files
-app.use(express.static("public"));
+app.use(express.static('public'));
 
 // Dummy data to simulate posts
 let posts = [
@@ -22,6 +22,23 @@ let posts = [
 // Home route to view all posts
 app.get("/", (req, res) => {
   res.render("index.ejs", {posts: posts});
+});
+
+// Route to show the edit form for a specific post by index
+app.get('/edit/:index', (req, res) => {
+  const index = req.params.index;
+  const post = posts[index]; // Get the post by index
+  res.render('editPost', { post: post, index: index });
+});
+
+// Route to update the post after editing
+app.post('/edit/:index', (req, res) => {
+  const index = req.params.index;
+  posts[index] = {
+      title: req.body.title,
+      description: req.body.description
+  };
+  res.redirect('/');
 });
 
 // Route to delete a post by index
