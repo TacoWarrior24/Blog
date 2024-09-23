@@ -50,7 +50,8 @@ h1{
 
 .posts {
     background-color: paleturquoise;
-    margin: 0em 5em;
+    width: 90%;
+    margin: 0 auto;
     padding: 2em;
 }
 
