@@ -104,6 +104,10 @@ input[type="text"], textarea {
     border-radius:.5em;
 }
 
+.contact{
+    margin-left: 5%;
+}
+
 footer {
     background-color: lightblue;
     text-align: center;
