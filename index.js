@@ -15,8 +15,8 @@ app.use(express.static('public'));
 
 // Dummy data to simulate posts
 let posts = [
-  { title: "First Post", description: "This is the first post" },
-  { title: "Second Post", description: "This is the Second cooler post" }
+  { title: "Chocolate Chip Cookie", description: "A chocolate chip cookie is a drop cookie that features chocolate chips or chocolate morsels as its distinguishing ingredient." },
+  { title: "Snickerdoodle", description: "A snickerdoodle is a type of cookie made with flour, fat, sugar, and salt, and rolled in cinnamon sugar. Eggs may also sometimes be used as an ingredient, with cream of tartar and baking soda added to leaven the dough." }
 ];
 
 // Home route to view all posts
