@@ -73,16 +73,16 @@ h1{
 }
 
 .banner-title {
-    position: absolute; /* Position the H1 on top of the banner */
-    top: 50%; /* Center vertically */
-    left: 50%; /* Center horizontally */
-    transform: translate(-50%, -90%); /* Offset to truly center */
-    color: white; /* Adjust color for contrast */
-    font-size: 4rem; /* Adjust the size as needed */
-    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7); /* Optional: shadow for readability */
-    z-index: 1; /* Ensure it appears above the banner images */
-    text-align: center; /* Center the text */
-    white-space: nowrap; /* Optional: prevents the text from wrapping to a new line */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -90%); 
+    color: white; 
+    font-size: 4rem;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7); 
+    z-index: 1;
+    text-align: center;
+    white-space: nowrap;
 }
 
 .banner img {
