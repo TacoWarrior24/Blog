@@ -11,6 +11,10 @@
     justify-content: space-between;
 }
 
+body{
+    margin: 0;
+}
+
 .logo a{
     font-size: 35px;
     font-weight: 600;
@@ -46,6 +50,13 @@ h1{
 	font-size: 58px;
 	line-height: 54px;
 	text-shadow: 2px 5px 0 rgba(0,0,0,0.2);
+}
+
+.banner-image {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin-bottom: 20px;
 }
 
 .posts {

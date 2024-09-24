@@ -1,8 +1,9 @@
 <%- include("partials/header.ejs") %>
 
 <h1>Cookie Book 🍪</h1>
-<!--<a href="/post">Create New Post</a>-->
-    <div class="posts">
+<img src="/images/cookieBanner.jpg" alt="Cookie Banner" class="banner-image">
+
+<div class="posts">
         <% posts.forEach((post, index) => { %>
             <div class="post">
                 <h2><%= post.title %></h2>
