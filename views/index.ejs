@@ -1,7 +1,12 @@
 <%- include("partials/header.ejs") %>
 
-<h1>Cookie Book 🍪</h1>
-<img src="/images/cookieBanner.jpg" alt="Cookie Banner" class="banner-image">
+<!--<img src="/images/cookieBanner.jpg" alt="Cookie Banner" class="banner-image">-->
+<div class="banner">
+  <img src="/images/cookieBannerLeft.jpg" alt="Left Image" class="banner-left">
+  <img src="/images/cookieBannerMiddle.jpg" alt="Middle Image" class="banner-middle">
+  <img src="/images/cookieBannerRight.jpg" alt="Right Image" class="banner-right">
+  <h1 class = "banner-title">Cookie Book 🍪</h1>
+</div>
 
 <div class="posts">
         <% posts.forEach((post, index) => { %>

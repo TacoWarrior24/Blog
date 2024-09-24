@@ -52,11 +52,41 @@ h1{
 	text-shadow: 2px 5px 0 rgba(0,0,0,0.2);
 }
 
-.banner-image {
+.banner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
     width: 100%;
-    height: auto;
+    height: 12rem;
+}
+
+.banner-left, .banner-right {
+    width: auto;
+    height: 100%; 
+}
+
+.banner-middle {
+    flex-grow: 1;
+    height: 100%;
+    width: auto;
+}
+
+.banner-title {
+    position: absolute; /* Position the H1 on top of the banner */
+    top: 50%; /* Center vertically */
+    left: 50%; /* Center horizontally */
+    transform: translate(-50%, -90%); /* Offset to truly center */
+    color: white; /* Adjust color for contrast */
+    font-size: 4rem; /* Adjust the size as needed */
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7); /* Optional: shadow for readability */
+    z-index: 1; /* Ensure it appears above the banner images */
+    text-align: center; /* Center the text */
+    white-space: nowrap; /* Optional: prevents the text from wrapping to a new line */
+}
+
+.banner img {
     display: block;
-    margin-bottom: 20px;
 }
 
 .posts {
