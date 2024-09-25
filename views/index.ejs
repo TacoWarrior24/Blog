@@ -13,12 +13,14 @@
             <div class="post">
                 <h2><%= post.title %></h2>
                 <p><%= post.description %></p>
-                <a href="/edit/<%= index %>">
-                  <button>Edit</button>
-                </a>
-                <form action="/delete/<%= index %>" method="POST">
-                  <button id="deletePost" type="submit"><strong>X</strong></button>
-                </form>
+                <div class="postButtonsContainer">
+                  <a href="/edit/<%= index %>">
+                    <button id="editPost">Edit</button>
+                  </a>
+                  <form action="/delete/<%= index %>" method="POST">
+                    <button id="deletePost" type="submit"><strong>X</strong></button>
+                  </form>
+                </div>
             </div>
         <% }) %>
     </div>

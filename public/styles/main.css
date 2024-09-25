@@ -136,12 +136,26 @@ input[type="text"], textarea {
     font-family: 'calibri';
 }
 
+#editPost{
+    margin-bottom: .5em;
+    background-color: white;
+    border: none;
+    padding: .5rem;
+    border-radius:.5em;
+}
+
+.postButtonsContainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
 #deletePost{
-    margin-left: 95%;
     margin-bottom: .5em;
     background-color: red;
     border: none;
-    padding: .5em;
+    padding: .5rem;
     border-radius:.5em;
 }
 
