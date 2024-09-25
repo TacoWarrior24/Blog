@@ -136,14 +136,6 @@ input[type="text"], textarea {
     font-family: 'calibri';
 }
 
-#editPost{
-    margin-bottom: .5em;
-    background-color: white;
-    border: none;
-    padding: .5rem;
-    border-radius:.5em;
-}
-
 .postButtonsContainer{
     display: flex;
     justify-content: space-between;
@@ -151,12 +143,19 @@ input[type="text"], textarea {
     padding: 10px;
 }
 
-#deletePost{
+button{
     margin-bottom: .5em;
-    background-color: red;
     border: none;
     padding: .5rem;
     border-radius:.5em;
+}
+
+#editPost{
+    background-color: white;
+}
+
+#deletePost{
+    background-color: red;
 }
 
 .contact{
