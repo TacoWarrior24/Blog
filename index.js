@@ -68,6 +68,11 @@ app.get("/contact", (req, res) => {
   res.render("contact.ejs");
 });
 
+// Route to see contact information
+app.get("/account", (req, res) => {
+  res.render("account.ejs");
+});
+
 // Start the server
 app.listen(port, () => {
   console.log(`Server is running on port ${port}`);
